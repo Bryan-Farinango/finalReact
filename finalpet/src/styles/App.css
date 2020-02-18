@@ -1,0 +1,133 @@
+.App {
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.msgregistro{
+  margin-right: 100px;
+}
+
+.registerform label{
+    text-align: left;
+    justify-content: left;
+}
+
+.Navbar{
+
+  padding-top: 20px;
+  overflow: auto;
+  position: fixed;
+  left: 50%;
+  transform: translatex(-50%);
+  z-index: 100;
+  height: 50%;
+}
+
+.Evento img{
+  padding-left: 40px;
+  height: 400px;
+  width: 600px;
+}
+.Lineas{
+
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Alertas{
+  text-align: center;
+}
+
+.Izquierda{
+  position: fixed;
+  top: 0;
+  text-align: left;
+  justify-content: center;
+  margin-top: 200px;
+
+
+}
+
+.Izquierda img{
+  width: 200px;
+  height: 200px;
+}
+
+.Centro {
+  text-align: center;
+  justify-content: center;
+}
+
+.Centro img{
+  align-items: center;
+  width: 700px;
+  height: 450px;
+}
+
+.Centro p{
+  margin-top: 10px;
+}
+
+.Derecha{
+  position: fixed;
+  top: 0;
+  text-align: right;
+  justify-content: center;
+  margin-top: 200px;
+  float: right;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 100%;
+  line-height: 50px;
+  background-color:lightgray;
+  overflow: hidden;
+}
+.img {
+  text-align: center;
+  width: 100%;
+}
+
+.logo{
+  width: 150px;
+  height: 50px;
+}
